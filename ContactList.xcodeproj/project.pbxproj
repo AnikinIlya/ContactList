@@ -17,7 +17,7 @@
 		0916DF2D28BF851C00263966 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916DF2C28BF851C00263966 /* Person.swift */; };
 		0916DF3028BF8D6600263966 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916DF2F28BF8D6600263966 /* DataManager.swift */; };
 		0916DF3228BF922000263966 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916DF3128BF922000263966 /* PersonDetailsViewController.swift */; };
-		0916DF3428BF9C0400263966 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916DF3328BF9C0400263966 /* TabBarController.swift */; };
+		0916DF3428BF9C0400263966 /* PersonTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916DF3328BF9C0400263966 /* PersonTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		0916DF2C28BF851C00263966 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		0916DF2F28BF8D6600263966 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0916DF3128BF922000263966 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
-		0916DF3328BF9C0400263966 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0916DF3328BF9C0400263966 /* PersonTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +88,10 @@
 		0916DF2828BF842900263966 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0916DF3328BF9C0400263966 /* PersonTabBarController.swift */,
 				0916DF2528BF834100263966 /* MainPersonListViewController.swift */,
-				0916DF2928BF845100263966 /* SecondTableViewController.swift */,
 				0916DF3128BF922000263966 /* PersonDetailsViewController.swift */,
-				0916DF3328BF9C0400263966 /* TabBarController.swift */,
+				0916DF2928BF845100263966 /* SecondTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0916DF2D28BF851C00263966 /* Person.swift in Sources */,
-				0916DF3428BF9C0400263966 /* TabBarController.swift in Sources */,
+				0916DF3428BF9C0400263966 /* PersonTabBarController.swift in Sources */,
 				0916DF3028BF8D6600263966 /* DataManager.swift in Sources */,
 				0916DF1228BF76E700263966 /* AppDelegate.swift in Sources */,
 				0916DF2A28BF845100263966 /* SecondTableViewController.swift in Sources */,

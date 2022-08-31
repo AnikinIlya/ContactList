@@ -146,10 +146,10 @@
             </objects>
             <point key="canvasLocation" x="1328.985507246377" y="-380.35714285714283"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Person Tab Bar Controller-->
         <scene sceneID="wlo-uG-3E9">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="T2q-jn-Fb0" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="T2q-jn-Fb0" customClass="PersonTabBarController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kKC-94-cE8">
                         <autoresizingMask key="autoresizingMask"/>

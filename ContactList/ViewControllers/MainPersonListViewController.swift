@@ -9,16 +9,8 @@ import UIKit
 
 class MainPersonListViewController: UITableViewController {
 
-    var personList = Person.getPersonList()
+    var personList: [Person]!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-     
-        tableView.rowHeight = 50
-        
-        
-    }
-
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         personList.count
