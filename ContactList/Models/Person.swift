@@ -23,7 +23,7 @@ extension Person {
         var personsList = [Person]()
         let dataManager = DataManager()
         
-        for index in 0...7 {
+        for index in 0...dataManager.firstNames.count - 1 {
             personsList.append(Person(
                 firstName: dataManager.firstNames[index],
                 lastdName: dataManager.lastNames[index],
