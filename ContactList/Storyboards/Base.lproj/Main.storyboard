@@ -116,7 +116,7 @@
         <scene sceneID="lYD-CO-rsi">
             <objects>
                 <navigationController id="UEz-G3-e1w" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Contacts" image="person" catalog="system" id="NaL-mI-ve0"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="person.circle" catalog="system" id="NaL-mI-ve0"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="VkI-ip-RsM">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -133,7 +133,7 @@
         <scene sceneID="i3I-0J-h4e">
             <objects>
                 <navigationController id="42h-Dk-GGR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Contacts" image="person" catalog="system" id="N8H-hU-Lkz"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="person.circle" catalog="system" id="N8H-hU-Lkz"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="3Fe-r0-ZEl">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -166,7 +166,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
